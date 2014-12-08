@@ -1,6 +1,7 @@
-#container{
-background-color: black;
-font-color:white;
 
+#button{
+	width:100px;
+    padding: 10px;
+    border: 3px solid black;
 
 }
