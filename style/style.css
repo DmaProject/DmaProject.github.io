@@ -1,7 +1,71 @@
+/* 	NAVIGATION CSS	*/
 
-#button{
-	width:100px;
-    padding: 10px;
-    border: 3px solid black;
 
+.navigation {
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	background-color:#CE260B;
+	margin:auto;
+	text-align: center;
+	display: inline;
+	padding:5px;
+	border:2px red solid;
+}
+
+.navigation li{
+	list-style:none;
+	float:left;
+}
+
+
+.navigation li a {
+	display: block;
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
+
+/* html element selectors */
+
+
+body{
+	font-family:arial;
+	
+}
+h4{
+	font-family:garamond;
+	border-bottom: 1px solid black;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* div classes */
+
+.header{
+	width:630px;
+	height:75x;
+	padding:5px;
+	margin: 0px auto 5px;
+	border: 2px solid black;
+}
+
+
+.container{
+	width:800px;
+	border: 2px solid red;
+	margin:5px auto;
+	padding:5px;
+	border-radius: 20px;
+}
+
+.content{
+	margin: 0px auto 5px;
+	padding:5px;
+	width:500px;
+	border: 2px solid black;
+	
 }
